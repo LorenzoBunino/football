@@ -2,7 +2,7 @@
 
 
 class Team:
-    def __init__(self, name, fgoals, agoals):
+    def __init__(self, name: str, fgoals: int, agoals: int):
         self.name = name
         self.fgoals = fgoals
         self.agoals = agoals

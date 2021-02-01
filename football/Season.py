@@ -8,7 +8,7 @@ from football import Team
 
 
 class Season:
-    def __init__(self, rawdata):
+    def __init__(self, rawdata: str):
         self.rawdata = pd.read_fwf(self.__rawdatacleanup(rawdata), index_col=0)
 
     @staticmethod
